@@ -1,0 +1,269 @@
+{
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2022-10-03T19:45:34-05:00",
+            "Manifests": 1691
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2022-10-03T19:46:59-05:00",
+            "Manifests": 1094
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2022-10-03T19:26:00-05:00",
+            "Manifests": 364
+        }
+    ],
+    "apps": [
+        {
+            "Version": "21.07",
+            "Name": "7zip",
+            "Updated": "2022-05-06T21:50:32.817438-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "2.4.54",
+            "Name": "apache",
+            "Updated": "2022-08-15T10:38:11.8390723-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.60.0",
+            "Name": "atom",
+            "Updated": "2022-05-06T21:53:58.244433-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "0.21.0",
+            "Name": "bat",
+            "Updated": "2022-05-12T21:53:45.8614494-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.94",
+            "Name": "cloc",
+            "Updated": "2022-07-15T18:28:57.141815-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.11.2",
+            "Name": "dark",
+            "Updated": "2022-08-20T20:52:33.4085913-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.4.3",
+            "Name": "diff-so-fancy",
+            "Updated": "2022-09-05T19:53:37.2986925-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.6",
+            "Name": "diffutils",
+            "Updated": "2022-09-05T19:50:38.7884752-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "12.1.0",
+            "Name": "flameshot",
+            "Updated": "2022-09-19T16:54:23.1994965-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "2.17.5",
+            "Name": "fontbase",
+            "Updated": "2022-06-21T06:15:19.3612519-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "0.30.0",
+            "Name": "fzf",
+            "Updated": "2022-05-11T21:14:09.0294981-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "2.37.2.windows.2",
+            "Name": "git",
+            "Updated": "2022-08-23T17:28:53.1518056-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "3.7",
+            "Name": "grep",
+            "Updated": "2022-08-22T09:34:58.8011424-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.50",
+            "Name": "innounp",
+            "Updated": "2022-05-10T17:55:53.1589625-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "r27",
+            "Name": "lf",
+            "Updated": "2022-09-15T21:48:32.5495991-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.22.0",
+            "Name": "lsd",
+            "Updated": "2022-08-21T09:17:56.9889796-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "4.3",
+            "Name": "make",
+            "Updated": "2022-05-11T22:20:36.7741254-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "4.8.27",
+            "Name": "mc",
+            "Updated": "2022-05-12T22:01:15.4434727-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "12.2.0-14.0.6-10.0.0-r1",
+            "Name": "mingw-winlibs-llvm",
+            "Updated": "2022-08-23T17:31:24.0274994-05:00",
+            "Source": "versions",
+            "Info": ""
+        },
+        {
+            "Version": "0.7.0",
+            "Name": "neovim",
+            "Updated": "2022-06-18T08:55:25.8949508-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "7.81.1",
+            "Name": "oh-my-posh",
+            "Updated": "2022-05-10T17:58:55.4838535-05:00",
+            "Source": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/oh-my-posh.json",
+            "Info": ""
+        },
+        {
+            "Version": "5.32.1.1",
+            "Name": "perl",
+            "Updated": "2022-09-05T19:56:05.2150271-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "13.0.0",
+            "Name": "ripgrep",
+            "Updated": "2022-08-22T09:17:25.3501129-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.6.1",
+            "Name": "tldr",
+            "Updated": "2022-05-07T19:49:11.7296234-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.2018.07.25",
+            "Name": "touch",
+            "Updated": "2022-08-19T21:02:40.0113995-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "14.32.31332.0",
+            "Name": "vcredist",
+            "Updated": "2022-09-08T08:53:10.4304983-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "0.12",
+            "Name": "vifm",
+            "Updated": "2022-09-15T21:34:44.9373317-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "9.0",
+            "Name": "vim",
+            "Updated": "2022-07-16T07:58:37.6618632-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.70.2.22230",
+            "Name": "vscodium",
+            "Updated": "2022-08-23T17:32:10.890302-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.14.2281.0",
+            "Name": "windows-terminal",
+            "Updated": "2022-08-23T17:32:26.9735971-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "1.4.2161",
+            "Name": "winget",
+            "Updated": "2022-09-08T08:49:59.2446068-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "1.3.524",
+            "Name": "wox",
+            "Updated": "2022-08-23T06:46:15.5315687-05:00",
+            "Source": "extras",
+            "Info": ""
+        },
+        {
+            "Version": "2021.12.17",
+            "Name": "youtube-dl",
+            "Updated": "2022-05-06T21:17:58.4756916-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "2022.09.01",
+            "Name": "yt-dlp",
+            "Updated": "2022-09-22T22:21:03.5748205-05:00",
+            "Source": "main",
+            "Info": ""
+        },
+        {
+            "Version": "0.8.2",
+            "Name": "zoxide",
+            "Updated": "2022-08-21T22:27:30.4373016-05:00",
+            "Source": "main",
+            "Info": ""
+        }
+    ]
+}
