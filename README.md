@@ -2,7 +2,7 @@
 apps configurations
 
 # PowerShell
-## Install prediction
+## Install Autocomplete (prediction)
    Install-Module PSReadLine -Force
 
 add in $PROFILE
