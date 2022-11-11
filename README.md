@@ -5,6 +5,9 @@ apps configurations
 ## Install Autocomplete (prediction)
    Install-Module PSReadLine -Force
 
+## Instalar Microsoft PowerShell
+    winget install --id Microsoft.Powershell --source winget
+
 add in $PROFILE
     
     Set-PSReadLineOption -PredictionSource History
