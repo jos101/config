@@ -21,4 +21,8 @@ default file in
 
     ~\scoop\apps\alacritty\0.11.0\alacritty.yml
 
+# Vifm
+config file in 
+
+   ~\scoop\apps\vifm\0.12\data\vifmrc
 
