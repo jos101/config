@@ -24,5 +24,19 @@ default file in
 # Vifm
 config file in 
 
+   ~\AppData\Roaming\Vifm\vifmrc
    ~\scoop\apps\vifm\0.12\data\vifmrc
 
+
+changes in the iriginal file ( `diff.exe .\vifmrc-original .\vifmrc`)
+```
+< filextype {*.pdf},<application/pdf> zathura %c %i &, apvlv %c, xpdf %c
+---
+> filextype {*.pdf},<application/pdf> zathura %c %i &, apvlv %c, xpdf %c,
+>     \ {Foxit Reader}
+>     \ "C:/Program Files (x86)/Foxit Software/Foxit Reader/FoxitReader.exe" %"c,
+215a218,219
+>         \ {View using mpv}
+>         \ mpv %"f,
+
+```
