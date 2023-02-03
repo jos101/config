@@ -25,6 +25,7 @@ default file in
 config file in 
 
    ~\AppData\Roaming\Vifm\vifmrc
+   
    ~\scoop\apps\vifm\0.12\data\vifmrc
 
 
