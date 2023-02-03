@@ -22,13 +22,13 @@ default file in
     ~\scoop\apps\alacritty\0.11.0\alacritty.yml
 
 # Vifm
-config file in 
+For <vifm-version> is the version of the vifm. 
+Config file in  
 
-    ~\AppData\Roaming\Vifm\vifmrc   
-    ~\scoop\apps\vifm\0.12\data\vifmrc
+    ~\scoop\apps\vifm\<vifm-version>\data\vifmrc
 
 
-changes in the iriginal file ( `diff.exe .\vifmrc-original .\vifmrc`)
+changes in the original file ( `diff.exe .\vifmrc-original .\vifmrc`)
 ```
 < filextype {*.pdf},<application/pdf> zathura %c %i &, apvlv %c, xpdf %c
 ---
@@ -40,3 +40,8 @@ changes in the iriginal file ( `diff.exe .\vifmrc-original .\vifmrc`)
 >         \ mpv %"f,
 
 ```
+
+**Note: ** Do not modify this vifmrc. It holds a copy from `~\scoop\apps\vifm\<vifm-version>\data\vifmrc`
+
+    ~\AppData\Roaming\Vifm\vifmrc   
+
