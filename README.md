@@ -24,9 +24,8 @@ default file in
 # Vifm
 config file in 
 
-   ~\AppData\Roaming\Vifm\vifmrc
-   
-   ~\scoop\apps\vifm\0.12\data\vifmrc
+    ~\AppData\Roaming\Vifm\vifmrc   
+    ~\scoop\apps\vifm\0.12\data\vifmrc
 
 
 changes in the iriginal file ( `diff.exe .\vifmrc-original .\vifmrc`)
