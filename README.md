@@ -41,7 +41,7 @@ changes in the original file ( `diff.exe .\vifmrc-original .\vifmrc`)
 
 ```
 
-**Note:** Do not modify this vifmrc. It holds a copy from `~\scoop\apps\vifm\<vifm-version>\data\vifmrc`
+**Note:** Do not modify this vifmrc. It holds a copy from `~\scoop\apps\vifm\<vifm-version>\data\vifmrc`.
 
     ~\AppData\Roaming\Vifm\vifmrc   
 
