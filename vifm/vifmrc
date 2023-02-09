@@ -178,9 +178,9 @@ command! reload :write | restart full
 " program.  There is also %FOREGROUND, which is useful for entering passwords.
 
 " Pdf
-filextype {*.pdf},<application/pdf> zathura %c %i &, apvlv %c, xpdf %c,
-    \ {Foxit Reader}
-    \ "C:/Program Files (x86)/Foxit Software/Foxit Reader/FoxitReader.exe" %"c, 
+filextype {*.pdf},<application/pdf> izathura %c %i &, apvlv %c, xpdf %c,
+        \ {Foxit Reader}
+        \ "C:/Program Files (x86)/Foxit Software/Foxit Reader/FoxitReader.exe" %"c,
 fileviewer {*.pdf},<application/pdf> pdftotext -nopgbrk %c -
 
 " PostScript
@@ -248,6 +248,8 @@ fileviewer {*.[1-8]},<text/troff> man ./%c | col -b
 
 " Images
 filextype {*.bmp,*.jpg,*.jpeg,*.png,*.gif,*.xpm},<image/*>
+        \ {IrfanView}
+        \ "C:\Program Files\IrfanView\i_view64.exe" "%f,
         \ {View in sxiv}
         \ sxiv %f,
         \ {View in gpicview}
@@ -406,7 +408,7 @@ filextype */
 " set viewcolumns=-{name}..,6{}.
 
 " Show vertical border
-" set fillchars=vborder:ï¿½..
+" set fillchars=vborder:ƒ..
 
 " Filter-out build and temporary files
 " filter! {*.lo,*.o,*.d,*.class,*.pyc,*.pyo,.*~}
