@@ -1,6 +1,6 @@
 # neovim
 
-ubicacion en windows
+ubicacion en windows. Copiar allí el init.vim
 
     ~/AppData/Local/nvim
 
