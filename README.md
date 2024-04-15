@@ -1,6 +1,15 @@
 # config
 apps configurations
 
+# Neovim
+
+plugins en windows
+
+```
+# winget
+AppData\Local\nvim\lua\custom\plugins.lua
+```
+
 # PowerShell
 ## Install Autocomplete (prediction)
    Install-Module PSReadLine -Force
