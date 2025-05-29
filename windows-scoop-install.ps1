@@ -1,6 +1,6 @@
 scoop install git
 scoop bucket add extras
-scoop bucker add versions
+scoop bucket add versions
 
 $apps = ("neovim", "starship", "wezterm", "lsd", "zoxide", "mingw-winlibs-llvm-msvcrt")
 
