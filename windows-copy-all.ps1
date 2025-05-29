@@ -13,7 +13,7 @@ Write-host "copiando profile powershell"
 if ( !(Test-Path $profile) ){
   New-Item -Path $profile -ItemType File -Force
 } 
-cp $dir/powershell/Microsoft.PowerShell_profile.ps1 ~/app
+cp $dir/powershell/Microsoft.PowerShell_profile.ps1 ~/documents/powershell/
 
 
 cd $dir
