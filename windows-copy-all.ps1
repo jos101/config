@@ -3,7 +3,7 @@ Write-host $dir
 
 Write-host "copiando lazyvim"
 cd config/windows/lazyvim 
-cp appdata ~/
+cp -Recursive -Force appdata ~/
 
 Write-host "copiando .wezterm.lua"
 cd $dir/config/windows/profile
