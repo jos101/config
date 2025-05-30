@@ -10,7 +10,7 @@ if ( !(test-path $PATH) ) {
 
 
 Write-Host "Descargando PowerShell.zip..."
-# Invoke-WebRequest -URI $URL -OutFile PowerShell.zip
+Invoke-WebRequest -URI $URL -OutFile PowerShell.zip
 Write-Host "Escribiendo en PowerShell.zip..."
 
 Write-Host "Expandiendo PowerShell.zip en $PATHPWS ..."
