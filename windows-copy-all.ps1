@@ -13,8 +13,12 @@ Write-host "copiando profile powershell"
 if ( !(Test-Path $profile) ){
   New-Item -Path $profile -ItemType File -Force
 } 
-cp $dir/powershell/Microsoft.PowerShell_profile.ps1 ~/documents/powershell/
 
+if ($PSVersionTable.PSVersion.Major -gt 6){
+  cp $dir/powershell/Microsoft.PowerShell_profile.ps1 ~/documents/powershell/
+}else{
+  Write-Host "Se necesita la version 7 de powershell" -ForegroundColor red
+}
 
 cd $dir
 
